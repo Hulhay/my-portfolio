@@ -1,0 +1,228 @@
+@media screen and (max-width: 768px) {
+	nav {
+		display: none;
+	}
+
+	header {
+		flex-direction: column;
+	}
+
+	header .header-photo {
+		width: 35%;
+		padding: 0;
+	}
+
+	header .header-info h1 {
+		font-size: 36px;
+	}
+
+	header .header-info p {
+		font-size: 18px;
+	}
+
+	#message {
+		width: 60px;
+		height: 60px;
+	}
+
+	.about h2 {
+		font-size: 30px;
+		align-self: center;
+	}
+
+	.about .about-text {
+		flex-direction: column;
+		width: 80%;
+		font-size: 18px;
+		text-align: justify;
+	}
+
+	.about .skills {
+		width: 80%;
+	}
+
+	.about .skills .skill-container {
+		width: 50%;
+		display: flex;
+		align-items: center;
+		margin-top: 10px;
+	}
+
+	.about .skills .skill-container .skill-logo img{
+		width: 50px;
+	}
+
+	.about .skills .skill-container p {
+		font-size: 18px;
+		padding-left: 10px;
+	}
+
+	.education h2 {
+		font-size: 30px;
+		align-self: center;
+	}
+
+	.education h3 {
+		font-size: 24px;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	.education .edu-container .educations {
+		justify-content: center;
+	}
+
+	.education .edu-container .educations article {
+		width: 85%;
+	}
+
+	.education .edu-container .educations article .edu-info {
+		font-size: 14px;
+	}
+
+	.projects h2 {
+		font-size: 30px;
+		align-self: center;
+	}
+
+	.projects h3 {
+		font-size: 24px;
+	}
+
+	.project {
+		width: 80%;
+	}
+
+	.space {
+		height: 550px;
+	}
+
+	.contact h2 {
+		font-size: 30px;
+		align-self: center;
+	}
+
+	.contact-sosmed {
+		padding: 0;
+	}
+
+	.contact-sosmed .profile h6 {
+		font-size: 20px;
+	}
+
+	.contact-sosmed .profile p {
+		font-size: 14px;
+	}
+
+	.contact-container {
+		flex-direction: column;
+		width: 70%;
+	}
+
+	.sosmeds {
+		flex-wrap: wrap;
+		padding: 0px;
+		flex-direction: row;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	.sosmed {
+		width: 25%;
+		/*padding: 10px;*/
+	}
+
+	.sosmed a:nth-child(2) {
+		display: none;
+	}
+
+	form button:hover {
+		transform: translateY(0px);
+		border-bottom: 5px solid #750510;
+	}
+
+	.contact-form {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	nav {
+		display: none;
+	}
+
+	header .header-info h1 {
+		font-size: 24px;
+	}
+
+	header .header-info p {
+		font-size: 14px;
+	}
+
+	.about h2 {
+		font-size: 30px;
+	}
+
+	.about .about-text {
+		font-size: 14px;
+	}
+
+	.about .skills {
+		width: 80%;
+	}
+
+	.about .skills .skill-container {
+		width: 50%;
+		margin-top: 5px;
+	}
+
+	.about .skills .skill-container .skill-logo img{
+		width: 50px;
+	}
+
+	.about .skills .skill-container p {
+		font-size: 14px;
+		padding-left: 10px;
+	}
+
+	.education h2 {
+		font-size: 30px;
+	}
+
+	.education .edu-container .educations article {
+		width: 90%;
+	}
+
+	.projects h2 {
+		font-size: 30px;
+	}
+
+	.project h3 {
+		font-size: 24px;
+	}
+
+	.project-detail {
+		font-size: 14px;
+	}
+
+	.space {
+		height: 600px;
+	}
+
+	.contact h2 {
+		font-size: 30px;
+	}
+
+
+
+	.contact-sosmed .profile {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.contact-sosmed .profile .profile-info{
+		padding-left: 0px;
+	}
+
+
+}

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Syifa A Prasetyo">
+	<meta name="keywords" content="Syifa Prasetyo, Freelancer">
+	<meta name="description" content="Portfolio Syifa A Prasetyo">
+	<meta name="robots" content="index, follow">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<title>Syifa Prasetyo</title>
+	<link rel="icon" href="img/logo.png" type="icon">
+</head>
+<body>
+	
+	<!-- Nav -->
+
+	<nav class="close">
+		<div class="top-side">
+			<ul class="nav-links">
+				<li>
+					<a href="#home">
+						<i class='bx bxs-home'></i>
+						<span class="link-name">Home</span>
+					</a>
+				</li>
+				<li>
+					<a href="#about-section">
+						<i class='bx bxs-info-circle'></i>
+						<span class="link-name">About</span>
+					</a>
+				</li>
+				<li>
+					<a href="#education-section">
+						<i class='bx bxs-graduation'></i>
+						<span class="link-name">Education</span>
+					</a>
+				</li>
+				<li>
+					<a href="#projects-section">
+						<i class='bx bx-task'></i>
+						<span class="link-name">Projects</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="down-side">
+			<ul class="nav-links">
+				<li>
+					<a href="#contact-section">
+						<i class='bx bxs-user'></i>
+						<span class="link-name">Contact</span>
+					</a>
+				</li>
+				<li>
+					<a href="" class="toggleMenu">
+						<div class="arrow-left show-arrow">
+							<i class='bx bxs-chevron-left'></i>
+						</div>
+						<div class="arrow-right">
+							<i class='bx bxs-chevron-right'></i>
+						</div>
+						<span class="link-name">Hide</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Home -->
+	<header id="home">
+		<div class="header-photo">
+			<img src="img/me-2-c-2.webp" alt="photo-syifa-prasetyo">
+		</div>
+		<div class="header-info">
+			<h1 class="name"></h1>
+			<p>Teacher | Freelancer</p>
+		</div>
+		<button id="message" title="Click Me!"></button>
+	</header>
+
+	<!-- About -->
+	<div class="about" id="about-section">
+		<h2>About</h2>
+		<div class="about-text">
+			<div class="text">
+				Hai! Saya <span style="color: #FAA300; font-weight: bold;">Prasetyo</span>.<br>Freelancer yang berdomisili di Bandung, Jawa Barat.
+			</div>
+			<div class="text">
+				Seorang penggemar <i>coding</i> yang suka belajar banyak hal baru. Tertarik dalam bidang <i>Website Development</i> dan <i>Machine Learning</i>. Aktif dalam mengerjakan proyek-proyek pribadi dan kolaborasi.
+			</div>
+		</div>
+		<div class="skills">
+			<div class="skill-container" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+				<div class="skill-logo">
+					<img src="img/html-css.webp" alt="html dan css" title="HTML dan CSS">
+				</div>
+				<p>Intermediate</p>
+			</div>
+			<div class="skill-container" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true">
+				<div class="skill-logo">
+					<img src="img/js.webp" alt="javascript" title="Javascript">
+				</div>
+				<p>Beginner</p>
+			</div>
+			<div class="skill-container" data-aos="fade-right" data-aos-duration="3000" data-aos-once="true">
+				<div class="skill-logo">
+					<img src="img/wp.webp" alt="wordpress" title="WordPress">
+				</div>
+				<p>Intermediate</p>
+			</div>
+			<div class="skill-container" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true">
+				<div class="skill-logo">
+					<img src="img/python.webp" alt="python" title="Python">
+				</div>
+				<p>Intermediate</p>
+			</div>
+			<div class="skill-container" data-aos="fade-right" data-aos-duration="3000" data-aos-once="true">
+				<div class="skill-logo">
+					<img src="img/tf.webp" alt="tensorflow" title="Tensorflow">
+				</div>
+				<p>Beginner</p>
+			</div>
+			<div class="skill-container" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+				<div class="skill-logo">
+					<img src="img/cpp.webp" alt="c++" title="C++">
+				</div>
+				<p>Basic</p>
+			</div>
+			<div class="skill-container" data-aos="fade-right" data-aos-duration="3000" data-aos-once="true">
+				<div class="skill-logo">
+					<img src="img/matlab.webp" alt="matlab" title="Matlab">
+				</div>
+				<p>Intermediate</p>
+			</div>
+			<div class="skill-container" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+				<div class="skill-logo">
+					<img src="img/octave.webp" alt="octave" title="Octave">
+				</div>
+				<p>Intermediate</p>
+			</div>
+			<div class="skill-container" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true">
+				<div class="skill-logo">
+					<img src="img/latex.webp" alt="latex" title="Latex">
+				</div>
+				<p>Beginner</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Education -->
+	<div class="education" id="education-section">
+		<h2>Education</h2>
+		<h3 data-aos="fade-right">Formal</h3>
+		<div class="edu-container">
+			<div class="educations">
+				<article data-aos="fade-up" data-aos-duration="1000">
+					<div class="edu-logo">
+						<img src="img/unpad.webp" alt="unpad">
+					</div>
+					<div class="edu-info">Universitas Padjadjaran<br>2017-2021<br>Geofisika</div>
+				</article>
+				<article data-aos="fade-up" data-aos-duration="3000">
+					<div class="edu-logo">
+						<img src="img/smapa.webp" alt="sma-dt">
+					</div>
+					<div class="edu-info">SMA Daarut Tauhiid Boarding School<br>2014-2017<br>IPA</div>
+				</article>
+			</div>
+		</div>
+		
+		<h3 data-aos="fade-right">Non-Formal</h3>
+		<div class="edu-container">
+			<div class="educations">
+				<article data-aos="fade-up" data-aos-duration="2000">
+					<div class="edu-logo">
+						<img src="img/dicoding.webp" alt="dicoding">
+					</div>
+					<div class="edu-info">Dicoding Academy<br>2022<br>Belajar Membuat Front-End Web untuk Pemula</div>
+				</article>
+				<article data-aos="fade-up" data-aos-duration="3000">
+					<div class="edu-logo">
+						<img src="img/dicoding.webp" alt="dicoding">
+					</div>
+					<div class="edu-info">Dicoding Academy<br>2022<br>Belajar Membuat Aplikasi Back-End untuk Pemula</div>
+				</article>
+				<article data-aos="fade-up" data-aos-duration="1000">
+					<div class="edu-logo">
+						<img src="img/bangkit-logo.webp" alt="bangkit">
+					</div>
+					<div class="edu-info">Bangkit Academy<br>led by Google, Tokopedia, Gojek, & Traveloka<br>2021<br>Machine Learning Participant</div>
+				</article>
+				<article data-aos="fade-up" data-aos-duration="2000">
+					<div class="edu-logo">
+						<img src="img/dicoding.webp" alt="dicoding">
+					</div>
+					<div class="edu-info">Dicoding Academy<br>2022<br>Belajar Machine Learning untuk Pemula</div>
+				</article>
+			</div>
+		</div>
+	</div>
+
+	<!-- Projects -->
+
+	<div class="projects" id="projects-section">
+		<h2>Projects</h2>
+		<div class="projects-container">
+			
+			<div class="project" data-aos="fade-right">
+				<h3>PAJABAT</h3>
+				<div class="container">
+					<div class="project-img">
+						<img src="img/pajabat.png" alt="">
+					</div>
+					<div class="project-detail">
+						<p>Proyek tim membuat <i>Graphical User Interface</i> berbasis <b>Matlab</b> untuk menghitung nilai parameter fisis (porositas, tortuositas, luas permukaan spesifik, dan rata-rata ukuran pori) suatu batuan digital 2D.</p>
+						<a href="http://grid.unpad.ac.id/~pajabat/">Portal Pajabat</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="project" data-aos="fade-left">
+				<h3>VERIFY</h3>
+				<div class="container">
+					<div class="project-img">
+						<img src="img/verify.png" alt="">
+					</div>
+					<div class="project-detail">
+						<p>Proyek tim membuat aplikasi android untuk menentukan apakah gaya penulisan suatu berita berpotensi mengandung hoaks atau tidak. Memanfaatkan <i>Machine Learning</i> sebagai penunjang aplikasi yang dibangun dengan <b>Tensorflow</b>.</p>
+						<a href="https://github.com/B21-CAP0133/verify-android-app">GitHub Repo</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="project" data-aos="fade-right">
+				<h3>ML &#x2715; DIGITAL ROCK</h3>
+				<div class="container">
+					<div class="project-img">
+						<img src="img/mldr.png" alt="">
+					</div>
+					<div class="project-detail">
+						<p>Merupakan perkembangan dari PAJABAT. Mengaplikasikan <i>Machine Learning</i> dengan <b>Tensorflow</b> untuk mengestimasi beberapa parameter fisis batuan berpori 2D.</p>
+						<a href="https://hulhay.github.io/WebTugasAkhir.github.io/">Showcase Project</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="project" data-aos="fade-left">
+				<h3>JAJAN KUY</h3>
+				<div class="container">
+					<div class="project-img">
+						<img src="img/jk.png" alt="">
+					</div>
+					<div class="project-detail">
+						<p>Sebuah aplikasi titip jajan online berbasis web. Memanfaatkan Spreadsheet API dan Local Storage. Telah digunakan oleh santri kamar Daarul Ilmi, SMA Daarut Tauhiid Boarding School Putra.</p>
+						<a href="https://jajankuydemo.netlify.app/">Jajan Kuy Demo</a> | <a href="https://github.com/Hulhay/jajan-kuy">GitHub Repo</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="space">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#333333" fill-opacity="1" d="M0,160L80,138.7C160,117,320,75,480,64C640,53,800,75,960,85.3C1120,96,1280,96,1360,96L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#333333" fill-opacity="1" d="M0,160L48,138.7C96,117,192,75,288,69.3C384,64,480,96,576,122.7C672,149,768,171,864,197.3C960,224,1056,256,1152,250.7C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+	</div>
+
+	<!-- Contact -->
+	<div class="contact" id="contact-section">
+		<h2>Contact</h2>
+		<div class="contact-container">
+			<div class="contact-sosmed">
+				<div class="profile">
+					<img src="img/me-bw.webp" alt="">
+					<div class="profile-info">
+						<h6>Syifa A Prasetyo</h6>
+						<p>Bandung, Jawa Barat</p>
+					</div>
+				</div>
+				<div class="sosmeds">
+					<div class="sosmed">
+						<a href="mailto:prasetyosyifa@gmail.com"><img src="img/mail.webp" alt=""></a>
+						<a href="mailto:prasetyosyifa@gmail.com">prasetyosyifa@gmail.com</a>
+					</div>
+					<div class="sosmed">
+						<a href="https://www.instagram.com/prasetyo_hh/"><img src="img/ig.webp" alt=""></a>
+						<a href="https://www.instagram.com/prasetyo_hh/">prasetyo_hh</a>
+					</div>
+					<div class="sosmed">
+						<a href="https://www.linkedin.com/in/syifa-prasetyo-6a68541a5/"><img src="img/linkedin.webp" alt=""></a>
+						<a href="https://www.linkedin.com/in/syifa-prasetyo-6a68541a5/">Syifa Prasetyo</a>
+					</div>
+					<div class="sosmed">
+						<a href="https://github.com/Hulhay/"><img src="img/github.webp" alt=""></a>
+						<a href="https://github.com/Hulhay/">HulHay</a>
+					</div>
+				</div>
+			</div>
+			<div class="contact-form">
+				<form action="" class="decor" name="submit-to-google-sheet">
+					<h6>Mari Diskusi..</h6>
+					<input type="text" placeholder="Nama" name="nama" required>
+			        <input type="email" placeholder="Email" name="email" required>
+			        <textarea placeholder="Pesan..." name="pesan" rows="5" required></textarea>
+			        <button type="submit" class="kirim">KIRIM</button>
+			        <button type="button" class="sending hide" disabled>Mengirimkan...</button>
+			    </form>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<a href="#home" title="Back to Top">
+			<i class='bx bxs-up-arrow-circle'></i>
+		</a>
+	<footer>
+
+	<script type="text/javascript" src="js/script.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	
+	<script type="text/javascript">
+		AOS.init({
+			duration: 3000,
+			once: true,
+		});
+		
+		let typed = new Typed('.name', {
+		strings: [
+			'<span style="color: #010101;">Syifa </span><span style="color: #B80012;">A</span><span style="color: #FAA300;"> Prasetyo</span>',
+			'<span style="color: white;">Syifa A Prasetyo</span>'],
+		typeSpeed: 60,
+		backSpeed:60,
+		startDelay:500,
+		});
+
+		
+
+  	</script>
+
+</body>
+</html>
