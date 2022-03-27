@@ -303,6 +303,7 @@ header .header-info p {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	width: 100%;
 }
 
 .project {
@@ -321,7 +322,7 @@ header .header-info p {
 }
 
 .project .container .project-img {
-	/*background-color: white;*/
+/*	background-color: white;*/
 	width: 400px;
 	padding-right: 10px;
 }
@@ -332,37 +333,14 @@ header .header-info p {
 
 .project-detail {
 	color: #fff;
+	text-align: justify;
+	/*background-color: red;*/
 }
 
 .project-detail a {
 	color: #FAA300;
 	font-weight: bold;
 }
-
-/*
-.projects-container {
-	display: grid;
-	grid-template-columns: repeat(8, 1fr);
-	grid-template-rows: repeat(3, 1fr);
-	grid-gap: 10px;
-	width: 80%;
-}
-
-.project {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-transform: uppercase;
-	text-align: center;
-
-}
-
-.project img {
-	width: 100%;
-	height: 100%;
-}*/
-
-
 
 .space {
 	height: 670px;

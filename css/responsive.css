@@ -194,15 +194,27 @@
 	}
 
 	.projects h2 {
-		font-size: 30px;
+		font-size: 30px; 
 	}
 
 	.project h3 {
 		font-size: 24px;
 	}
 
+	.container {
+		flex-direction: column;
+	}
+
+	.project .container .project-img {
+		width: 100%;
+		/*background-color: blue;*/
+		display: flex;
+		justify-content: center;
+	}
+
 	.project-detail {
 		font-size: 14px;
+		padding-right: 0px;
 	}
 
 	.space {
