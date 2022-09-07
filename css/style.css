@@ -283,6 +283,65 @@ header .header-info p {
 	padding-left: 10px;
 }
 
+.exps {
+	background-color: #333333;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 100px;
+}
+
+.exps h2 {
+	font-size: 64px;
+	color: #FAA300;
+	padding: 10px 36px;
+	align-self: flex-end;
+}
+
+.exp-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+}
+
+.exp {
+	width: 40%;
+	margin-bottom: 35px;
+	padding-right: 20px;
+}
+
+.exp h3 {
+	font-size: 33px;
+	color: #fff;
+}
+
+.container {
+	display: flex;
+}
+
+.exp .container .exp-img {
+/*	background-color: white;*/
+	width: 400px;
+	padding-right: 10px;
+}
+
+.exp-img img {
+	width: 144px;
+}
+
+.exp-detail {
+	color: #fff;
+	text-align: justify;
+	/*background-color: red;*/
+}
+
+.exp-detail a {
+	color: #FAA300;
+	font-weight: bold;
+}
+
 .projects {
 	background-color: #333333;
 	height: 100%;
@@ -369,7 +428,6 @@ header .header-info p {
 }
 
 .contact-container {
-	margin-top: ;
 	display: flex;
 	width: 80%;
 }
